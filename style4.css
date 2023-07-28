@@ -1,0 +1,66 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .slider-handle {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 2;
+    transition: transform 0.3s ease;
+  }
+  
+  .slider-item {
+    position: relative;
+    z-index: 1;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form {
+    display: none;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Rest of the CSS styles */
+  /* ... */
+  
